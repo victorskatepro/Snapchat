@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E330BBD313A13974B55EEAFA /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E1ECCE04B487DC7AE17A0 /* Pods_Snapchat.framework */; };
+		F605EAFF20B707A5009562B6 /* SnapsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605EAFE20B707A5009562B6 /* SnapsViewControllerTableViewController.swift */; };
+		F605EB0120B70E60009562B6 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605EB0020B70E60009562B6 /* ImagenViewController.swift */; };
+		F605EB0320B72FCC009562B6 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605EB0220B72FCC009562B6 /* ElegirUsuarioViewController.swift */; };
 		F60E5A6F20B5F96800769B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E5A6E20B5F96800769B74 /* AppDelegate.swift */; };
-		F60E5A7120B5F96800769B74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E5A7020B5F96800769B74 /* ViewController.swift */; };
+		F60E5A7120B5F96800769B74 /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E5A7020B5F96800769B74 /* IniciarSesionViewController.swift */; };
 		F60E5A7420B5F96800769B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60E5A7220B5F96800769B74 /* Main.storyboard */; };
 		F60E5A7620B5F96A00769B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60E5A7520B5F96A00769B74 /* Assets.xcassets */; };
 		F60E5A7920B5F96A00769B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60E5A7720B5F96A00769B74 /* LaunchScreen.storyboard */; };
+		F60E5A8120B5FADC00769B74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F60E5A8020B5FADC00769B74 /* GoogleService-Info.plist */; };
+		F64F710520B61A1100A1D8C5 /* Snapchat.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F64F710420B61A1100A1D8C5 /* Snapchat.xcworkspace */; };
+		F6A54CCD20BF3251005A3025 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A54CCC20BF3251005A3025 /* Usuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1442A85F19304137C83017BB /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
+		BD3E1ECCE04B487DC7AE17A0 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAE7262C9960DE528847AFF /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
+		F605EAFE20B707A5009562B6 /* SnapsViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		F605EB0020B70E60009562B6 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		F605EB0220B72FCC009562B6 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
 		F60E5A6B20B5F96800769B74 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60E5A6E20B5F96800769B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F60E5A7020B5F96800769B74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F60E5A7020B5F96800769B74 /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
 		F60E5A7320B5F96800769B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F60E5A7520B5F96A00769B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60E5A7820B5F96A00769B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60E5A7A20B5F96A00769B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60E5A8020B5FADC00769B74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F62A908220B628F800AB3C9E /* Snapchat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapchat.entitlements; sourceTree = "<group>"; };
+		F64F710420B61A1100A1D8C5 /* Snapchat.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Snapchat.xcworkspace; sourceTree = SOURCE_ROOT; };
+		F6A54CCC20BF3251005A3025 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E330BBD313A13974B55EEAFA /* Pods_Snapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7029BDBE8D351674B4663BAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E1ECCE04B487DC7AE17A0 /* Pods_Snapchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DAC11B7A7CA44C18EC7FD89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE7262C9960DE528847AFF /* Pods-Snapchat.debug.xcconfig */,
+				1442A85F19304137C83017BB /* Pods-Snapchat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F60E5A6220B5F96800769B74 = {
 			isa = PBXGroup;
 			children = (
 				F60E5A6D20B5F96800769B74 /* Snapchat */,
 				F60E5A6C20B5F96800769B74 /* Products */,
+				7DAC11B7A7CA44C18EC7FD89 /* Pods */,
+				7029BDBE8D351674B4663BAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,37 @@
 		F60E5A6D20B5F96800769B74 /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				F6A54CCB20BF31EF005A3025 /* Models */,
+				F6A54CCA20BF31C1005A3025 /* ViewControllers */,
+				F62A908220B628F800AB3C9E /* Snapchat.entitlements */,
+				F64F710420B61A1100A1D8C5 /* Snapchat.xcworkspace */,
+				F60E5A8020B5FADC00769B74 /* GoogleService-Info.plist */,
 				F60E5A6E20B5F96800769B74 /* AppDelegate.swift */,
-				F60E5A7020B5F96800769B74 /* ViewController.swift */,
 				F60E5A7220B5F96800769B74 /* Main.storyboard */,
 				F60E5A7520B5F96A00769B74 /* Assets.xcassets */,
 				F60E5A7720B5F96A00769B74 /* LaunchScreen.storyboard */,
 				F60E5A7A20B5F96A00769B74 /* Info.plist */,
 			);
 			path = Snapchat;
+			sourceTree = "<group>";
+		};
+		F6A54CCA20BF31C1005A3025 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F60E5A7020B5F96800769B74 /* IniciarSesionViewController.swift */,
+				F605EAFE20B707A5009562B6 /* SnapsViewControllerTableViewController.swift */,
+				F605EB0020B70E60009562B6 /* ImagenViewController.swift */,
+				F605EB0220B72FCC009562B6 /* ElegirUsuarioViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F6A54CCB20BF31EF005A3025 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6A54CCC20BF3251005A3025 /* Usuario.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F60E5A7D20B5F96A00769B74 /* Build configuration list for PBXNativeTarget "Snapchat" */;
 			buildPhases = (
+				A92E40A9A7C4E4A3F01E7B73 /* [CP] Check Pods Manifest.lock */,
 				F60E5A6720B5F96800769B74 /* Sources */,
 				F60E5A6820B5F96800769B74 /* Frameworks */,
 				F60E5A6920B5F96800769B74 /* Resources */,
+				CD38B1991C392756711F0BD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +158,11 @@
 				TargetAttributes = {
 					F60E5A6A20B5F96800769B74 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60E5A7920B5F96A00769B74 /* LaunchScreen.storyboard in Resources */,
+				F60E5A8120B5FADC00769B74 /* GoogleService-Info.plist in Resources */,
+				F64F710520B61A1100A1D8C5 /* Snapchat.xcworkspace in Resources */,
 				F60E5A7620B5F96A00769B74 /* Assets.xcassets in Resources */,
 				F60E5A7420B5F96800769B74 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +199,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A92E40A9A7C4E4A3F01E7B73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD38B1991C392756711F0BD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F60E5A6720B5F96800769B74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60E5A7120B5F96800769B74 /* ViewController.swift in Sources */,
+				F60E5A7120B5F96800769B74 /* IniciarSesionViewController.swift in Sources */,
+				F605EB0120B70E60009562B6 /* ImagenViewController.swift in Sources */,
+				F6A54CCD20BF3251005A3025 /* Usuario.swift in Sources */,
+				F605EAFF20B707A5009562B6 /* SnapsViewControllerTableViewController.swift in Sources */,
 				F60E5A6F20B5F96800769B74 /* AppDelegate.swift in Sources */,
+				F605EB0320B72FCC009562B6 /* ElegirUsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,10 +400,14 @@
 		};
 		F60E5A7E20B5F96A00769B74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAE7262C9960DE528847AFF /* Pods-Snapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snapchat/Snapchat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N4CSFF85V;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +421,14 @@
 		};
 		F60E5A7F20B5F96A00769B74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1442A85F19304137C83017BB /* Pods-Snapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snapchat/Snapchat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N4CSFF85V;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
