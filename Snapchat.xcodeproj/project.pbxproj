@@ -19,6 +19,8 @@
 		F60E5A8120B5FADC00769B74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F60E5A8020B5FADC00769B74 /* GoogleService-Info.plist */; };
 		F64F710520B61A1100A1D8C5 /* Snapchat.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F64F710420B61A1100A1D8C5 /* Snapchat.xcworkspace */; };
 		F6A54CCD20BF3251005A3025 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A54CCC20BF3251005A3025 /* Usuario.swift */; };
+		F6C1F5B420C7957900FF7CE3 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1F5B320C7957900FF7CE3 /* Snap.swift */; };
+		F6C1F5B620C79C7000FF7CE3 /* VerSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1F5B520C79C7000FF7CE3 /* VerSnapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		F62A908220B628F800AB3C9E /* Snapchat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapchat.entitlements; sourceTree = "<group>"; };
 		F64F710420B61A1100A1D8C5 /* Snapchat.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Snapchat.xcworkspace; sourceTree = SOURCE_ROOT; };
 		F6A54CCC20BF3251005A3025 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		F6C1F5B320C7957900FF7CE3 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		F6C1F5B520C79C7000FF7CE3 /* VerSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerSnapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				F605EAFE20B707A5009562B6 /* SnapsViewControllerTableViewController.swift */,
 				F605EB0020B70E60009562B6 /* ImagenViewController.swift */,
 				F605EB0220B72FCC009562B6 /* ElegirUsuarioViewController.swift */,
+				F6C1F5B520C79C7000FF7CE3 /* VerSnapViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				F6A54CCC20BF3251005A3025 /* Usuario.swift */,
+				F6C1F5B320C7957900FF7CE3 /* Snap.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 				F605EB0120B70E60009562B6 /* ImagenViewController.swift in Sources */,
 				F6A54CCD20BF3251005A3025 /* Usuario.swift in Sources */,
 				F605EAFF20B707A5009562B6 /* SnapsViewControllerTableViewController.swift in Sources */,
+				F6C1F5B620C79C7000FF7CE3 /* VerSnapViewController.swift in Sources */,
+				F6C1F5B420C7957900FF7CE3 /* Snap.swift in Sources */,
 				F60E5A6F20B5F96800769B74 /* AppDelegate.swift in Sources */,
 				F605EB0320B72FCC009562B6 /* ElegirUsuarioViewController.swift in Sources */,
 			);
